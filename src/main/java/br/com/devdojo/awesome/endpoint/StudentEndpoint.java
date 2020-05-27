@@ -1,11 +1,12 @@
 package br.com.devdojo.awesome.endpoint;
 
+import br.com.devdojo.awesome.model.Student;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.devdojo.awesome.model.Student;
+
 
 import java.util.List;
 import static java.util.Arrays.asList;
