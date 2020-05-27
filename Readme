@@ -1,0 +1,7 @@
+Anotações
+
+ a diferença entre @RestController e @Controller é quem @RestController add automaticamente @ResponseBody em todos metodos.
+
+ @ResponseBody é uma notação que diz que o resultado vai ter que fazer uma conversao para json e vai enviar a mensagem no corpo do http
+
+ @ResquestMapping = para mapear o endpoint
