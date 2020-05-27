@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
  * @author Ana Gabriela Franco
  *
  */
+
 @EnableAutoConfiguration
 public class ApplicationStart {
 	
