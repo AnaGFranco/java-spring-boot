@@ -7,3 +7,13 @@ Anotações
  @ResquestMapping = para mapear o endpoint
  
  @Autowired injeção de dependencia e realiza a instancia dos objetos
+ 
+ @Component - marca a class que vai ser scaneda pelo @ComponentScan (fala que a classe pode ser usada em enjeções de dependencias)
+ @Repository - especialização que deve ser utilizada quando estiver trabalhando com DAO, pois faz xom que as excessoes que nao foram checadas podem ser traduzidas
+ @Service - especialização do componente, é recomendada na utilização classes servece.
+ 
+ 
+ Geralmente a class main contem (@EnableAutoConfiguration, @ComponentScan e @Configuration), mas ao invés de utilizar as três  basta apenas aplocar 
+@SpringBootApplication
+ 
+ @Configuration faz a cponfiguração com as classes que forem definidas
