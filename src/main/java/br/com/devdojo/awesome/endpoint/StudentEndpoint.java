@@ -1,19 +1,15 @@
 package br.com.devdojo.awesome.endpoint;
 
-import br.com.devdojo.awesome.model.Student;
-import br.com.devdojo.awesome.util.DateUtil;
+import static java.util.Arrays.asList;
+
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-
-
-import java.util.List;
-import static java.util.Arrays.asList;
-
-import java.time.LocalDateTime;
+import br.com.devdojo.awesome.model.Student;
 
 
 /**
@@ -29,7 +25,6 @@ import java.time.LocalDateTime;
 public class StudentEndpoint {
 	
 	@Autowired
-	private DateUtil dateUtil;
 	@RequestMapping(method = RequestMethod.GET,path = "/list")
 	public List<Student> listAll(){
 		
